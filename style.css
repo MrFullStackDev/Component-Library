@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+/*@containers*/
+
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+/*@links*/
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.primary-link {
+  background-color: #a7f3d0;
+  border-radius: 0.5rem;
+  color: black;
+}
+
+.secondary-link {
+  border-radius: 0.5rem;
+  border: 1px solid #a7f3d0;
+  color: black;
+}
