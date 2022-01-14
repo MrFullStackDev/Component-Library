@@ -15,7 +15,7 @@ hr {
   padding-right: 1rem;
 }
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -35,4 +35,60 @@ hr {
   border-radius: 0.5rem;
   border: 1px solid #a7f3d0;
   color: black;
+}
+
+/*@lists*/
+.nobullets {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding-right: 1rem;
+}
+
+/*@nav*/
+.navigation {
+  background-color: #a7f3d0;
+  color: black;
+  padding: 1rem;
+}
+.nav-pills {
+  text-align: right;
+}
+.brand {
+  font-weight: bold;
+}
+.link-active {
+  font-weight: bold;
+}
+
+/*@header*/
+.hero {
+  text-align: center;
+}
+.hero-img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+/*@section*/
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.section-ow {
+  background-color: wheat;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*@footer*/
+.footer {
+  background-color: #a7f3d0;
+  padding: 1rem;
+  color: black;
+  text-align: center;
 }
